@@ -17,7 +17,7 @@ $ brew install nodebrew
 $ nodebrew ls-remote
 
 # LTSであるv12のNode.js(2020/01/21時点)をインストールします。
-# なお単なる nodebrew install v12.14.1 でも問題ありません(遅いですが) 
+# なお単なる nodebrew install v12.14.1 でも問題ありません(遅いですが)
 $ nodebrew install-binary v12.14.1
 
 # インストール後に使用を宣言すると有効になります
@@ -25,7 +25,7 @@ $ nodebrew install-binary v12.14.1
 $ nodebrew use v12.14.1
 
 # nodebrewでインストールしたnodeのパスを通す
-$ vim ~/.bash_profile 
+$ vim ~/.bash_profile
 # 以下がなければ追加する
 > # Node.js
 > export PATH=$HOME/.nodebrew/current/bin:$PATH
